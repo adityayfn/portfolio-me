@@ -4,7 +4,7 @@
       <h1 class="text-base-100 font-bold text-center text-3xl dark:text-white">
         Contact Details
       </h1>
-      <hr class="border-b border-primary w-64 my-0 mx-auto" />
+      <hr class="border-b border-primary w-68 my-0 mx-auto" />
       <div class="flex flex-col gap-3 mt-5 md:w-72 xl:w-[26rem]">
         <div class="flex items-center gap-5">
           <div>

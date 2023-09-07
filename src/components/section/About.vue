@@ -23,6 +23,27 @@
       </h1>
     </div>
   </div>
+  <div class="section-content skills mt-10">
+    <h1
+      class="text-base-100 font-bold text-center text-3xl md:text-4xl dark:text-white"
+    >
+      Skills
+    </h1>
+    <hr class="border-b border-primary w-32 my-0 mx-auto" />
+    <div
+      class="skills-container flex flex-wrap mt-8 gap-6 justify-center items-center"
+    >
+      <img src="/public/icons/html.png" alt="HTML" class="w-14" />
+
+      <img src="/public/icons/css.png" alt="HTML" class="w-14" />
+      <img src="/public/icons/js.png" alt="HTML" class="w-14" />
+      <img src="/public/icons/tailwind.png" alt="HTML" class="w-14" />
+      <img src="/public/icons/vue.png" alt="HTML" class="w-14" />
+      <img src="/public/icons/vuetify.png" alt="HTML" class="w-14" />
+      <img src="/public/icons/fire.png" alt="HTML" class="w-14" />
+      <img src="/public/icons/pinia.png" alt="HTML" class="w-14" />
+    </div>
+  </div>
 </template>
 <script setup></script>
 <style></style>
