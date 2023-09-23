@@ -1,17 +1,19 @@
 import { reactive } from "vue"
 import nuxt from "../public/icons/nuxt.png"
 import vue from "../public/icons/vue.png"
+import react from "../public/icons/react.svg"
 import vuetify from "../public/icons/vuetify.png"
 import pinia from "../public/icons/pinia.png"
 import firebase from "../public/icons/fire.png"
 import tailwind from "../public/icons/tailwind.png"
 import daisyui from "../public/icons/daisy2.svg"
-
+import antd from "../public/icons/antd.svg"
 import sukaNonton from "../public/portfolio/suka-nonton.png"
 import store from "../public/portfolio/store.png"
 import muvie from "../public/portfolio/muvie.png"
 import lpVintage from "../public/portfolio/lp-vintage.png"
 import alquran from "../public/portfolio/alquran.png"
+import pictHunt from "../public/portfolio/pict-hunt.png"
 
 export const state = reactive([
   {
@@ -37,6 +39,17 @@ export const state = reactive([
   },
   {
     id: 3,
+    title: "Pict Hunt",
+    tech: [react, antd],
+    about:
+      "Pict Hunt is an image explorer website, there are a lot of images for free on it. In this project, I used React JS and the API from Pixabay.",
+
+    img: pictHunt,
+    repo: "https://github.com/adityayfn/pict-hunt",
+    demo: "https://pict-hunt.vercel.app/",
+  },
+  {
+    id: 4,
     title: "The Muvie Search",
     tech: [vue, vuetify],
     about:
