@@ -35,13 +35,14 @@
     >
       <img src="/public/icons/html.png" alt="HTML" class="w-14" />
 
-      <img src="/public/icons/css.png" alt="HTML" class="w-14" />
-      <img src="/public/icons/js.png" alt="HTML" class="w-14" />
-      <img src="/public/icons/tailwind.png" alt="HTML" class="w-14" />
-      <img src="/public/icons/vue.png" alt="HTML" class="w-14" />
-      <img src="/public/icons/vuetify.png" alt="HTML" class="w-14" />
-      <img src="/public/icons/fire.png" alt="HTML" class="w-14" />
-      <img src="/public/icons/pinia.png" alt="HTML" class="w-14" />
+      <img src="/public/icons/css.png" alt="CSS" class="w-14" />
+      <img src="/public/icons/js.png" alt="JS" class="w-14" />
+      <img src="/public/icons/tailwind.png" alt="TAILWIND" class="w-14" />
+      <img src="/public/icons/vue.png" alt="VUE" class="w-14" />
+      <img src="/public/icons/vuetify.png" alt="VUETIFY" class="w-14" />
+      <img src="/public/icons/fire.png" alt="FIREBASE" class="w-14" />
+      <img src="/public/icons/pinia.png" alt="PINIA" class="w-14" />
+      <img src="/public/icons/react.svg" alt="REACT" class="w-14" />
     </div>
   </div>
 </template>

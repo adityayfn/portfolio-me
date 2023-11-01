@@ -14,18 +14,19 @@ import muvie from "../public/portfolio/muvie.png"
 import lpVintage from "../public/portfolio/lp-vintage.png"
 import alquran from "../public/portfolio/alquran.png"
 import pictHunt from "../public/portfolio/pict-hunt.png"
+import islamApp from "../public/portfolio/islam-app.png"
 
 export const state = reactive([
-  {
-    id: 1,
-    title: "Suka Nonton ",
-    tech: [nuxt, vuetify],
-    about:
-      "This is a movie streaming platform. In this project, I am using API from another streaming platform. ",
-    img: sukaNonton,
-    repo: "https://github.com/adityayfn/suka-nonton",
-    demo: "https://suka-nonton.netlify.app/",
-  },
+  // {
+  //   id: 1,
+  //   title: "Suka Nonton ",
+  //   tech: [nuxt, vuetify],
+  //   about:
+  //     "This is a movie streaming platform. In this project, I am using API from another streaming platform. ",
+  //   img: sukaNonton,
+  //   repo: "https://github.com/adityayfn/suka-nonton",
+  //   demo: "https://suka-nonton.netlify.app/",
+  // },
   {
     id: 2,
     title: "Fake Dr Martens Store",
@@ -71,13 +72,13 @@ export const state = reactive([
   },
   {
     id: 5,
-    title: "Al-Qur'an Online",
+    title: "Islam App",
     tech: [vue, tailwind, daisyui],
     about:
       "This is my first project during learn vue js. In this project I use API from https://api.quran.gading.dev/surah  ",
 
-    img: alquran,
-    repo: "https://github.com/adityayfn/alquran-online-v2",
-    demo: "https://alquran-online-v2.netlify.app/",
+    img: islamApp,
+    repo: "https://github.com/adityayfn/islam-app",
+    demo: "https://islam-apps.netlify.app",
   },
 ])
