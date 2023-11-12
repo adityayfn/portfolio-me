@@ -1,34 +1,26 @@
 import { reactive } from "vue"
-import nuxt from "../public/icons/nuxt.png"
-import vue from "../public/icons/vue.png"
-import react from "../public/icons/react.svg"
-import vuetify from "../public/icons/vuetify.png"
-import pinia from "../public/icons/pinia.png"
-import firebase from "../public/icons/fire.png"
-import tailwind from "../public/icons/tailwind.png"
-import daisyui from "../public/icons/daisy2.svg"
-import antd from "../public/icons/antd.svg"
-import sukaNonton from "../public/portfolio/suka-nonton.png"
-import store from "../public/portfolio/store.png"
-import muvie from "../public/portfolio/muvie.png"
-import lpVintage from "../public/portfolio/lp-vintage.png"
-import alquran from "../public/portfolio/alquran.png"
-import pictHunt from "../public/portfolio/pict-hunt.png"
-import islamApp from "../public/portfolio/islam-app.png"
+import nuxt from "/public/icons/nuxt.png"
+import vue from "/public/icons/vue.png"
+import react from "/public/icons/react.svg"
+import vuetify from "/public/icons/vuetify.png"
+import pinia from "/public/icons/pinia.png"
+import firebase from "/public/icons/fire.png"
+import tailwind from "/public/icons/tailwind.png"
+import nextjs from "/public/icons/nextjs.png"
+import daisyui from "/public/icons/daisy2.svg"
+import antd from "/public/icons/antd.svg"
+import sukaNonton from "/public/portfolio/suka-nonton.png"
+import store from "/public/portfolio/store.png"
+import muvie from "/public/portfolio/muvie.png"
+import lpVintage from "/public/portfolio/lp-vintage.png"
+import alquran from "/public/portfolio/alquran.png"
+import pictHunt from "/public/portfolio/pict-hunt.png"
+import islamApp from "/public/portfolio/islam-app.png"
+import animeDex from "/public/portfolio/anime-dex.png"
 
 export const state = reactive([
-  // {
-  //   id: 1,
-  //   title: "Suka Nonton ",
-  //   tech: [nuxt, vuetify],
-  //   about:
-  //     "This is a movie streaming platform. In this project, I am using API from another streaming platform. ",
-  //   img: sukaNonton,
-  //   repo: "https://github.com/adityayfn/suka-nonton",
-  //   demo: "https://suka-nonton.netlify.app/",
-  // },
   {
-    id: 2,
+    id: 1,
     title: "Fake Dr Martens Store",
     tech: [nuxt, vuetify, pinia, firebase],
     about:
@@ -37,6 +29,17 @@ export const state = reactive([
     img: store,
     repo: "https://github.com/adityayfn/nuxt-boots-store",
     demo: "https://fake-drmartens-store.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "Anime Dex",
+    tech: [nextjs, tailwind, daisyui],
+    about:
+      "Anime Dex is an anime streaming platform and this was my first project while learning Next JS. I am using the API from https://docs.consumet.org/",
+
+    img: animeDex,
+    repo: "https://github.com/adityayfn/anime-dex",
+    demo: "https://animes-dex.vercel.app/",
   },
   {
     id: 3,
@@ -61,7 +64,7 @@ export const state = reactive([
     demo: "https://the-muvie-search.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "LP Tshirt Band Vintage",
     tech: [vue, tailwind, daisyui],
     about: "This is a fake project, I got it from https://goodbrief.io/.",
@@ -71,7 +74,7 @@ export const state = reactive([
     demo: "https://tshirt-band-vintage-lp.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Islam App",
     tech: [vue, tailwind, daisyui],
     about:

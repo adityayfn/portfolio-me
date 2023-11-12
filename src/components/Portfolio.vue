@@ -60,7 +60,7 @@
 <script setup>
 import Footer from "./Footer.vue"
 import { mdiGithub } from "@mdi/js"
-import { state } from "../../composables/useDatas"
+import { state } from "../composables/useDatas"
 console.log(state)
 </script>
 <style></style>
